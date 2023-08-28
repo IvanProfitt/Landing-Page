@@ -32,7 +32,6 @@ header{
 .content,.placeholder{
     display:flex;
     flex:1 1 200px;;
-    border: solid 2px yellow;
 }
 
 .content{
@@ -43,8 +42,45 @@ header{
 }
 .placeholder{
     display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .signUp{
     width:100px;
 }
+img{
+    height:100px;
+    width: 100px;
+    border: solid 2px #3882F6;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.pictures{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text{
+
+    text-align:center;
+    justify-content: center;
+}
+.message{
+    padding-top:100px;
+    padding-bottom: 75px;
+    background-color: #e5e7eb;
+}
+.callToAction{
+    background-color: #3882f6;
+
+}
+
+.callText{
+    
+    text-align:center;
+}
+
+
