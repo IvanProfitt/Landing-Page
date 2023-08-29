@@ -1,9 +1,10 @@
 body{
     margin:0px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
-header{
+header,footer{
     display:flex;
     background-color: #1F2937;
     justify-content:center;
@@ -16,6 +17,17 @@ header{
 
     
 }
+.mainText{
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight: 900;
+    
+}
+
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 .links{
     display:flex;
@@ -26,12 +38,13 @@ header{
 }
 
 .Main{
+    background-color: #1F2937;
     display: flex;
 }
 
 .content,.placeholder{
     display:flex;
-    flex:1 1 200px;;
+    flex:1 1 200px;
 }
 
 .content{
@@ -44,6 +57,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: grey;
+    margin:20px;
+    border-radius:5px;
 
 }
 
@@ -60,6 +76,7 @@ img{
 
 .pictures{
     display: flex;
+    width: 75%;
     justify-content: space-evenly;
 }
 
@@ -71,11 +88,32 @@ img{
 .message{
     padding-top:100px;
     padding-bottom: 75px;
-    background-color: #e5e7eb;
+    background-color: #E5E7EB;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote{
+    font-size:36px;
+    font-style:italic;
+    font-weight:lighter;
+    color:#1F2937;
+
+
 }
 .callToAction{
     background-color: #3882f6;
+    border-radius: 10px;
+    height:150px;
+    width:75%;
+    text-align: center;
+    
 
+}
+.pad{
+    padding-top:100px;
 }
 
 .callText{
@@ -83,4 +121,46 @@ img{
     text-align:center;
 }
 
+footer{
+    bottom:0;
+    width:100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#e5e7eb;
+}
+
+.gitHub{
+    height:50px;
+    width:50px;
+    border: none;
+}
+.callToAction{
+    display:flex;
+    flex:1 auto 0;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    white-space: nowrap;
+}
+
+.callText{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right:250px;
+    margin-left:50px;
+}
+
+input{
+    background-color:#3882F6;
+    color:white;
+    border-radius: 10px;
+    height:50px;
+
+}
+input:hover{
+    background-color:green;
+}
 
