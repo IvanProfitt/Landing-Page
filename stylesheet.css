@@ -40,16 +40,19 @@ header,footer{
 .Main{
     background-color: #1F2937;
     display: flex;
+    padding-bottom:100px;
 }
 
 .content,.placeholder{
     display:flex;
     flex:1 1 200px;
+    margin:70px;
 }
 
 .content{
     margin-right:20px;
     flex-direction: column;
+
 
 
 }
@@ -58,7 +61,6 @@ header,footer{
     align-items: center;
     justify-content: center;
     background-color: grey;
-    margin:20px;
     border-radius:5px;
 
 }
@@ -86,22 +88,31 @@ img{
     text-align:center;
     justify-content: center;
 }
-.message{
-    padding-top:100px;
-    padding-bottom: 75px;
-    background-color: #E5E7EB;
-}
+
 .center{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.message{
+    padding-top:100px;
+    padding-bottom: 75px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .quote{
     font-size:36px;
     font-style:italic;
     font-weight:lighter;
     color:#1F2937;
-
+    max-width: 800px;
+}
+.author{
+    font-style: italic;
+    float: right;
 
 }
 .callToAction{
@@ -130,6 +141,7 @@ footer{
     align-items: center;
     justify-content: center;
     color:#e5e7eb;
+    margin-top: 75px;;
 }
 
 .gitHub{
@@ -137,14 +149,6 @@ footer{
     width:50px;
     border: none;
 }
-/*.callToAction{
-    display:flex;
-    flex:1 auto 1;
-    justify-content: center;
-    align-items: center;
-    overflow:scroll;
-    white-space: nowrap;
-}*/
 
 .callToAction {
     display: flex;
@@ -152,9 +156,8 @@ footer{
     align-items: flex-start;
     width: 75%;
     max-width: 100%;
-    margin: 0 auto; /* Center the container */
-    border: 1px solid #ccc; /* Optional: Add a border for visualization */
-    box-sizing: border-box; /* Include padding and border in the total width */
+    margin: 0 auto;
+    box-sizing: border-box;
   }
 
 .callText{
